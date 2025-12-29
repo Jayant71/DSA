@@ -15,7 +15,6 @@ def bubble_sort(arr: list[int]):
 # nums = [23, 65, 2, 5, 76, 14, 10]
 nums = [random.randint(1, 10000) for _ in range(100)]
 
-k = 2
 print(nums)
 
 # pass a copy (does not sorts the original array)
